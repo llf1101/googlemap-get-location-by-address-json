@@ -5,7 +5,7 @@ require('dotenv').config()
 const {Client} = require("@googlemaps/google-maps-services-js")
 const fs = require('fs')
 const locationList = require('./locationList.json')
-const googlemapKey = process.env.GOOGLEMAP_KEY
+const googlemapKey = process.env.GOOGLEMAP_KEY // define your Google Map Key in environment variable
 
 const getLatLng = async (locationList) => {
 	const client = new Client({})
