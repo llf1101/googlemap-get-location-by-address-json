@@ -1,0 +1,23 @@
+{
+  "name": "googlemap-get-latlng-by-address-json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/llf1101/googlemap-get-location-by-address-json.git"
+  },
+  "author": "LLF",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/llf1101/googlemap-get-location-by-address-json/issues"
+  },
+  "homepage": "https://github.com/llf1101/googlemap-get-location-by-address-json#readme",
+  "dependencies": {
+    "@googlemaps/google-maps-services-js": "^3.1.16",
+    "dotenv": "^10.0.0"
+  }
+}
